@@ -9,6 +9,7 @@
     height: 749px;
     display: flex;
     flex-direction: column;
+    padding-top: 24px;
 
     @include onTablet {
       min-height: 100vh;

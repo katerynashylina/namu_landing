@@ -20,6 +20,11 @@
   &--cross {
     background-image: url(../images/icons/cross.svg);
 
+    @include onDesktop {
+      margin-right: 10px;
+
+    }
+
     @include onPhone {
       height: 22px;
       width: 22px;

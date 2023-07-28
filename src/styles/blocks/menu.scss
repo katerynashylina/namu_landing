@@ -1,28 +1,65 @@
 .menu {
   background-color: $backgroundColor;
 
+  @include onPhone {
+    overflow-y: auto;
+  }
+
+  @include onTablet {
+    overflow-y: auto;
+  }
+
   &__content {
+    box-sizing: border-box;
+    height: 100vh;
+
     color: $whiteColor;
 
-    display: flex;
-    flex-direction: column;
-    z-index: 3;
-    
-    @include onPhone {
-      min-height: 100vh;
-      height: 749px;
-    }
-    
-    @include onTablet {
-      min-height: 100vh;
-      height: 1093px;
-    }
+    padding: 24px 0 288px;
 
-    @include onDesktop {
-      min-height: 100vh;
-      height: 800px;
-    }
+    // @include onPhone {
+    //   padding: 24px 0 288px;
+    // }
+
+    // @include onTablet {
+    //   padding: 24px 0 288px;
+    // }
+    
+    // @include onDesktop {
+    //   padding: 24px 98px;
+    // }
   }
+
+  // @include onPhone {
+  //   overflow-y: auto;
+  // }
+
+  // @include onTablet {
+  //   overflow-y: auto;
+  // }
+
+  // &__content {
+  //   color: $whiteColor;
+
+  //   display: flex;
+  //   flex-direction: column;
+  //   z-index: 3;
+    
+  //   @include onPhone {
+  //     min-height: 100vh;
+  //     height: 749px;
+  //   }
+    
+  //   @include onTablet {
+  //     min-height: 100vh;
+  //     height: 1093px;
+  //   }
+
+  //   @include onDesktop {
+  //     min-height: 100vh;
+  //     height: 800px;
+  //   }
+  // }
 
   &__top {
     &--telephone {
