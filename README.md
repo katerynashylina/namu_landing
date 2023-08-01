@@ -1,4 +1,4 @@
-# The Met Landing
+# Namu Landing
 The necessary links:
     [DEMO LINK](https://katerynashylina.github.io/namu_landing/), 
     [Figma design](https://www.figma.com/file/HL3XGt5ZatvJoYBhOaWY5x/museum-prototype?type=design&node-id=323-1957&mode=design)
